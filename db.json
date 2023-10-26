@@ -1,44 +1,125 @@
 {
-    "events": [
-      {
-        "id": 1,
-        "poster": "https://www.timeoutdubai.com/cloud/timeoutdubai/2023/05/22/gigs-in-dubai-1.png",
-        "name": "Music Festival",
-        "description": "A vibrant music festival featuring top artists from around the world.",
-        "date": "2023-09-15",
-        "location": "Delhi",
-        "category": "Music",
-        "price": 300
-      },
-      {
-        "id": 2,
-        "poster": "https://media.istockphoto.com/id/1320104418/photo/sport-background-green-field-in-soccer-stadium-ready-for-game-in-the-midfield-3d-illustration.jpg?s=612x612&w=0&k=20&c=P4R6zIzHvVlc3_wtsZPw7LoOG_TC9iV4DvpffHmCuU8=",
-        "name": "Soccer Match",
-        "description": "An exciting soccer match between two rival teams.",
-        "date": "2023-08-28",
-        "location": "Chennai",
-        "category": "Sports",
-        "price": 250
-      },
-      {
-        "id": 3,
-        "poster": "https://wpvip.edutopia.org/wp-content/uploads/2022/10/davis-169hero2-teachcode-twenty20.jpg?w=2880&quality=85",
-        "name": "Coding Workshop",
-        "description": "Learn the art of coding with experienced professionals.",
-        "date": "2023-09-05",
-        "location": "Banglore",
-        "category": "Workshop",
-        "price": 150
-      },
-      {
-        "id": 4,
-        "poster": "https://media.npr.org/assets/img/2017/12/21/_harlan_nprmusic10years-149_wide-78a7596027f7b4c023a21ad85f078e8a4165c230-s800-c85.jpg",
-        "name": "Rock Concert",
-        "description": "A high-energy rock concert with electrifying performances.",
-        "date": "2023-09-20",
-        "location": "Mumbai",
-        "category": "Music",
-        "price": 400
-      }
-    ]
-  }
+  "response_code": 0,
+  "results": [
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "How many times did Martina Navratilova win the Wimbledon Singles Championship?",
+      "correct_answer": "Nine",
+      "incorrect_answers": [
+        "Ten",
+        "Seven",
+        "Eight"
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Which car company is the only Japanese company which won the 24 Hours of Le Mans?",
+      "correct_answer": "Mazda",
+      "incorrect_answers": [
+        "Toyota",
+        "Subaru",
+        "Nissan"
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Which Italian footballer told Neuer where he&#039;s putting his shot and dragging it wide, during the match Italy-Germany, UEFA EURO 2016?",
+      "correct_answer": "Pelle",
+      "incorrect_answers": [
+        "Insigne",
+        "Barzagli",
+        "Giaccherini"
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Which female player won the gold medal of table tennis singles in 2016 Olympics Games?",
+      "correct_answer": "DING Ning (China)",
+      "incorrect_answers": [
+        "LI Xiaoxia (China)",
+        "Ai FUKUHARA (Japan)",
+        "Song KIM (North Korea)"
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Which year was the third Super Bowl held?",
+      "correct_answer": "1969",
+      "incorrect_answers": [
+        "1968",
+        "1971",
+        "1970"
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "What team did England beat in the semi-final stage to win in the 1966 World Cup final?",
+      "correct_answer": "Portugal",
+      "incorrect_answers": [
+        "West Germany",
+        "Soviet Union",
+        "Brazil"
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Who is Manchester United&#039;s leading appearance maker?",
+      "correct_answer": "Ryan Giggs",
+      "incorrect_answers": [
+        "David Beckham",
+        "Wayne Rooney",
+        "Eric Cantona"
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "What is &ldquo;The Sport of Kings&rdquo;?",
+      "correct_answer": "Horse Racing",
+      "incorrect_answers": [
+        "Chess",
+        "Jousting",
+        "Fencing"
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "In Canadian football, scoring a rouge is worth how many points?",
+      "correct_answer": "1",
+      "incorrect_answers": [
+        "2",
+        "3",
+        "4"
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "The AHL affiliate team of the Boston Bruins is named what?",
+      "correct_answer": "Providence Bruins",
+      "incorrect_answers": [
+        "New Haven Bruins",
+        "Cambridge Bruins",
+        "Hartford Bruins"
+      ]
+    }
+  ]
+}
