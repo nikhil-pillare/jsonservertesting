@@ -1,51 +1,980 @@
-
 {
-  "freelancers": [
+  "users": [
     {
-      "id": 1,
-      "name": "John Doe",
-      "email": "john@example.com",
-      "password": "password",
-      "profession": "Web Developer",
-      "skills": ["HTML", "CSS", "JavaScript"],
-      "hourly_rate": 25,
-      "profile_picture": "profile1.jpg",
-			"isBooked" : false
+      "name": "Abhishree Tripathi",
+      "email": "bhishree18@gmail.com",
+      "password": "1234",
+      "id": 1
     },
     {
-      "id": 2,
-      "name": "Jane Smith",
-      "email": "jane@example.com",
-      "password": "password",
-      "profession": "Graphic Designer",
-      "skills": ["Photoshop", "Illustrator"],
-      "hourly_rate": 30,
-      "profile_picture": "profile2.jpg",
-			"isBooked" : true
+      "name": "Nikhil",
+      "email": "bhishree19@gmail.com",
+      "password": "1234",
+      "id": 2
+    },
+    {
+      "name": "Sanket Jaiswal",
+      "email": "bhishree20@gmail.com",
+      "password": "1234",
+      "id": 3
+    },
+    {
+      "name": "Sourabh Mandal",
+      "email": "bhishree21@gmail.com",
+      "password": "1234",
+      "id": 4
+    },
+    {
+      "title": "Sourabh",
+      "description": "xyzz",
+      "price": "1000",
+      "id": 5
+    },
+    {
+      "name": "sourabh mandal",
+      "email": "bhishree21@gmail.com",
+      "password": "1234",
+      "id": 6
+    },
+    {
+      "name": "Varnika Gupta",
+      "email": "abcd@gmail.com",
+      "password": "Outlander@1",
+      "id": 7
+    },
+    {
+      "name": "Testing Testing",
+      "email": "testinng123@gmail.com",
+      "password": "testing@123T",
+      "id": 8
+    },
+    {
+      "title": "karan",
+      "description": "fogcdjlkdlnkgfvdslk",
+      "price": "200",
+      "id": 9
+    },
+    {
+      "title": "karan",
+      "description": "fogcdjlkdlnkgfvdslk",
+      "price": "200",
+      "id": 10
+    },
+    {
+      "title": "karan",
+      "description": "fogcdjlkdlnkgfvdslk",
+      "price": "200",
+      "id": 11
+    },
+    {
+      "title": "karan",
+      "description": "fogcdjlkdlnkgfvdslk",
+      "price": "200",
+      "id": 12
+    },
+    {
+      "title": "karan",
+      "description": "fogcdjlkdlnkgfvdslk",
+      "price": "200",
+      "id": 13
+    },
+    {
+      "title": "sourabh",
+      "description": "abcdef",
+      "price": "120",
+      "id": 14
+    },
+    {
+      "title": "sourabh",
+      "description": "abcdef",
+      "price": "120",
+      "id": 15
+    },
+    {
+      "name": "testing3 testing3",
+      "email": "testinng3@gmail.com",
+      "password": "Testing3@",
+      "id": 16
+    },
+    {
+      "name": "Nishant Singh",
+      "email": "nishantkr488@gmail.com",
+      "password": "Nishant123@",
+      "id": 17
+    },
+    {
+      "name": "Sanket Jaiswal",
+      "email": "jaiswalsanket9404@gmail.com",
+      "password": "Sanket@123",
+      "id": 18
+    },
+    {
+      "name": "Anurag Choudhary",
+      "email": "anurag.1101140@gmail.com",
+      "password": "Noida@123",
+      "id": 19
+    },
+    {
+      "name": "Anurag Choudhary",
+      "email": "anurag.1101140@gmail.com",
+      "password": "Loda@LUND123",
+      "id": 20
     }
   ],
-  "users":[
+  "admin": [
+    {
+      "name": "Abhishree Tripathi",
+      "email": "bhishree18@gmail.com",
+      "password": "1234",
+      "id": 1
+    }
+  ],
+  "cart": [
+    {
+      "quantity": 1,
+      "id": 14,
+      "name": "Airdopes 141",
+      "brand": "Boat",
+      "type": "in-ear",
+      "wireless": true,
+      "Release Date": "May 2021",
+      "microphone": false,
+      "Driver Type": "Dynamic",
+      "Driver Size": 8,
+      "Number of Drivers": 1,
+      "Water Resistant": true,
+      "Weight": 200,
+      "Battery Life": 20,
+      "noise_cancellation": "none",
+      "price": 30,
+      "rating": 3,
+      "description": "Wireless Earbuds with 8mm drivers, Upto 42 Hours Playback, ENx™ Technology, IPX4 Water Resistance.",
+      "colors": [
+        {
+          "id": 1,
+          "label": "Cyan Cider",
+          "name": "cyan",
+          "image": "https://www.boat-lifestyle.com/cdn/shop/products/grey_600x.png?v=1668599490"
+        },
+        {
+          "id": 2,
+          "label": "Black",
+          "name": "black",
+          "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/products/back_600x.png?v=1668599490"
+        },
+        {
+          "id": 3,
+          "label": "White Purity",
+          "name": "white",
+          "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/products/white_600x.png?v=1668599490"
+        }
+      ],
+      "selectedColorId": 1,
+      "cartImage": "https://www.boat-lifestyle.com/cdn/shop/products/grey_600x.png?v=1668599490",
+      "color": "cyan",
+      "SelectedColorId": 1
+    }
+  ],
+  "delivery": [
+    {
+      "name": "",
+      "email": "",
+      "street": "",
+      "city": "",
+      "state": "",
+      "pin": "",
+      "phone": ""
+    }
+  ],
+  "products": [
     {
       "id": 1,
-      "name": "John Doe",
-      "email": "john@example.com",
-      "password": "password",
-      "profession": "Web Developer",
-      "skills": ["HTML", "CSS", "JavaScript"],
-      "hourly_rate": 25,
-      "profile_picture": "profile1.jpg",
-			"isBooked" : false
+      "brand": "Apple",
+      "type": "over-ear",
+      "wireless": true,
+      "Release Date": "December 2020",
+      "microphone": true,
+      "Driver Type": "Dynamic",
+      "Driver Size": 40,
+      "Number of Drivers": 1,
+      "Water Resistant": false,
+      "Weight": 385,
+      "Battery Life": 20,
+      "noise_cancellation": "active noise cancellation",
+      "name": "AirPods Max",
+      "price": 559,
+      "rating": 4,
+      "description": "A perfect balance of high-fidelity audio",
+      "colors": [
+        {
+          "id": 1,
+          "label": "Pink",
+          "name": "pink",
+          "image": "https://uploads-ssl.webflow.com/63e857eaeaf853471d5335ff/63e8c4e4aed3c6720e446aa1_airpod%20max-min.png"
+        },
+        {
+          "id": 2,
+          "label": "Space-Grey",
+          "name": "grey",
+          "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/airpods-max-select-spacegray-202011?wid=940&hei=1112&fmt=png-alpha&.v=1604709508000"
+        },
+        {
+          "id": 3,
+          "label": "Green",
+          "name": "green",
+          "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/airpods-max-select-green-202011?wid=940&hei=1112&fmt=png-alpha&.v=1604022364000"
+        },
+        {
+          "id": 4,
+          "label": "Silver",
+          "name": "grey",
+          "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/airpods-max-select-silver-202011?wid=940&hei=1112&fmt=png-alpha&.v=1604021221000"
+        },
+        {
+          "id": 5,
+          "label": "Sky-Blue",
+          "name": "blue",
+          "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/airpods-max-select-skyblue-202011?wid=940&hei=1112&fmt=png-alpha&.v=1604022365000"
+        }
+      ],
+      "selectedColorId": 1,
+      "cartImage": "https://uploads-ssl.webflow.com/63e857eaeaf853471d5335ff/63e8c4e4aed3c6720e446aa1_airpod%20max-min.png"
     },
     {
       "id": 2,
-      "name": "Jane Smith",
-      "email": "jane@example.com",
-      "password": "password",
-      "profession": "Graphic Designer",
-      "skills": ["Photoshop", "Illustrator"],
-      "hourly_rate": 30,
-      "profile_picture": "profile2.jpg",
-			"isBooked" : true
+      "name": "Bose QuietComfort 45 headphones",
+      "brand": "Bose",
+      "type": "over-ear",
+      "wireless": true,
+      "Release Date": "September 2020",
+      "microphone": true,
+      "Driver Type": "Dynamic",
+      "Driver Size": 30,
+      "Number of Drivers": 2,
+      "Water Resistant": false,
+      "Weight": 400,
+      "Battery Life": 21,
+      "noise_cancellation": "passive noise cancellation",
+      "price": 329,
+      "rating": 4,
+      "description": "There's comfort in quiet. You can feel it the minute you put them on. The soft, plush cushions seal you in. You press the button and whoosh — the world fades, the music starts, and it’s love at first listen.",
+      "colors": [
+        {
+          "id": 1,
+          "label": "White Smoke",
+          "name": "white",
+          "image": "https://assets.bosecreative.com/transform/788fa4e9-26f2-4c34-ba4b-be028d456603/QC45_WhiteSmoke_001_RGB?io=width:816,height:667,transform:fit&io=width:816,height:667,transform:fit"
+        },
+        {
+          "id": 2,
+          "label": "Black",
+          "name": "black",
+          "image": "https://assets.bosecreative.com/transform/ab738d65-f8fb-4aaa-9b30-af023ade6fd8/QC45_TripleBlack_001_RGB?io=width:816,height:667,transform:fit&io=width:816,height:667,transform:fit"
+        }
+      ],
+      "selectedColorId": 1,
+      "cartImage": "https://assets.bosecreative.com/transform/788fa4e9-26f2-4c34-ba4b-be028d456603/QC45_WhiteSmoke_001_RGB?io=width:816,height:667,transform:fit&io=width:816,height:667,transform:fit"
+    },
+    {
+      "id": 3,
+      "name": "Bose QuietComfort Earbuds II",
+      "brand": "Bose",
+      "type": "in-ear",
+      "wireless": true,
+      "Release Date": "Feburary 2021",
+      "microphone": true,
+      "Driver Type": "Planar",
+      "Driver Size": 40,
+      "Number of Drivers": 1,
+      "Water Resistant": false,
+      "Weight": 200,
+      "Battery Life": 20,
+      "noise_cancellation": "active noise cancellation",
+      "price": 299,
+      "rating": 4,
+      "description": "Bose QuietComfort Earbuds II are the next generation of wireless listening. Enjoy the best in sound and noise cancellation that is perfectly yours.",
+      "colors": [
+        {
+          "id": 1,
+          "label": "Triple Black",
+          "name": "black",
+          "image": "https://assets.bosecreative.com/transform/8c62d466-b6da-4e29-b9f1-b4ac266ac1be/QCEBII_Buds_Front_7200px_final_black_RGB?io=width:816,height:667,transform:fit&io=width:816,height:667,transform:fit"
+        },
+        {
+          "id": 2,
+          "label": "Midnight Blue",
+          "name": "blue",
+          "image": "https://assets.bosecreative.com/transform/4cb94c16-d86b-4fc4-9056-889387d9e69e/CTP-39052_PDP_ECOM_MIDNIGHT-BLUE-1_png?io=width:816,height:667,transform:fit&io=width:816,height:667,transform:fit"
+        },
+        {
+          "id": 3,
+          "label": "Eclipse Gray",
+          "name": "grey",
+          "image": "https://assets.bosecreative.com/transform/d14a4369-7853-4a5e-92f8-ca67b1cefcc4/CTP-39052_PDP_ECOM_ECLIPSE-GREY-1?io=width:816,height:667,transform:fit&io=width:816,height:667,transform:fit"
+        },
+        {
+          "id": 4,
+          "label": "Soapstone",
+          "name": "white",
+          "image": "https://assets.bosecreative.com/transform/c5db12b7-a1d9-42fd-aacd-3fdbd2e6d7dd/QCEBII_Buds_Front_7200px_final_soapstone_RGB?io=width:816,height:667,transform:fit&io=width:816,height:667,transform:fit"
+        }
+      ],
+      "selectedColorId": 1,
+      "cartImage": "https://assets.bosecreative.com/transform/8c62d466-b6da-4e29-b9f1-b4ac266ac1be/QCEBII_Buds_Front_7200px_final_black_RGB?io=width:816,height:667,transform:fit&io=width:816,height:667,transform:fit"
+    },
+    {
+      "id": 4,
+      "name": "Bose Noise Cancelling Headphones 700",
+      "brand": "Bose",
+      "type": "over-ear",
+      "wireless": true,
+      "Release Date": "Feburary 2022",
+      "microphone": true,
+      "Driver Type": "Balanced Armature",
+      "Driver Size": 40,
+      "Number of Drivers": 1,
+      "Water Resistant": true,
+      "Weight": 300,
+      "Battery Life": 24,
+      "noise_cancellation": "active noise cancellation",
+      "price": 379,
+      "rating": 4,
+      "description": "The sweet sound of better silence. The Bose Noise Cancelling Headphones 700 are packed full of all the features you need for superior sound and premium quiet.",
+      "colors": [
+        {
+          "id": 1,
+          "label": "Luxe Silver",
+          "name": "grey",
+          "image": "https://assets.bosecreative.com/transform/37127c0a-4b5c-40b7-b5e9-4f0ecf541d03/noise_cancelling_headphones_700_silver_EC_hero?io=width:816,height:667,transform:fit&io=width:816,height:667,transform:fit"
+        },
+        {
+          "id": 2,
+          "label": "Black",
+          "name": "black",
+          "image": "https://assets.bosecreative.com/transform/f45f8f87-6606-46a1-92bb-d4b5ff3bbd9b/noise_cancelling_headphones_700_blk_EC_hero?io=width:816,height:667,transform:fit&io=width:816,height:667,transform:fit"
+        }
+      ],
+      "selectedColorId": 1,
+      "cartImage": "https://assets.bosecreative.com/transform/37127c0a-4b5c-40b7-b5e9-4f0ecf541d03/noise_cancelling_headphones_700_silver_EC_hero?io=width:816,height:667,transform:fit&io=width:816,height:667,transform:fit"
+    },
+    {
+      "id": 5,
+      "name": "Bose A30 Aviation Headset",
+      "brand": "Bose",
+      "type": "over-ear",
+      "wireless": true,
+      "Release Date": "January 2022",
+      "microphone": true,
+      "Driver Type": "Electrostatic",
+      "Driver Size": 40,
+      "Number of Drivers": 1,
+      "Water Resistant": false,
+      "Weight": 400,
+      "Battery Life": 20,
+      "noise_cancellation": "passive noise cancellation",
+      "price": 1299,
+      "rating": 5,
+      "description": "What happens when all the distractions — everything that’s standing in your way — are stripped away? You’re left with the pure, indescribable feeling of the freedom of flight.",
+      "colors": [
+        {
+          "id": 1,
+          "label": "Black",
+          "name": "black",
+          "image": "https://assets.bosecreative.com/transform/c86b67b9-2f87-4779-ba7f-062151a3307a/Aviation_Headset_A30_3Quarters_Left?io=width:816,height:667,transform:fit&io=width:816,height:667,transform:fit"
+        }
+      ],
+      "selectedColorId": 1,
+      "cartImage": "https://assets.bosecreative.com/transform/c86b67b9-2f87-4779-ba7f-062151a3307a/Aviation_Headset_A30_3Quarters_Left?io=width:816,height:667,transform:fit&io=width:816,height:667,transform:fit"
+    },
+    {
+      "id": 6,
+      "name": "Safe and Sound Earbud with Case Protection Set",
+      "brand": "Bose",
+      "type": "on-ear",
+      "wireless": true,
+      "Release Date": "August 2022",
+      "microphone": true,
+      "Driver Type": "Dynamic",
+      "Driver Size": 40,
+      "Number of Drivers": 1,
+      "Water Resistant": true,
+      "Weight": 250,
+      "Battery Life": 21,
+      "noise_cancellation": "passive noise cancellation",
+      "price": 324,
+      "rating": 3,
+      "description": "Take your earbuds everywhere for music and the world’s best noise cancellation anywhere using the metal carabiner to clip them directly to your bag.",
+      "colors": [
+        {
+          "id": 1,
+          "label": "Triple Black",
+          "name": "black",
+          "image": "https://assets.bosecreative.com/transform/19ae1bf4-3def-4521-879a-e372de89fa8e/QCEBII_SiliconeCaseCover_Front_Earbuds_2000x2000_final_black_RGB?io=width:816,height:667,transform:fit&io=width:816,height:667,transform:fit"
+        }
+      ],
+      "selectedColorId": 1,
+      "cartImage": "https://assets.bosecreative.com/transform/19ae1bf4-3def-4521-879a-e372de89fa8e/QCEBII_SiliconeCaseCover_Front_Earbuds_2000x2000_final_black_RGB?io=width:816,height:667,transform:fit&io=width:816,height:667,transform:fit"
+    },
+    {
+      "id": 7,
+      "name": "AirPods Pro (2nd generation)",
+      "brand": "Apple",
+      "type": "in-ear",
+      "wireless": true,
+      "Release Date": "November 2022",
+      "microphone": true,
+      "Driver Type": "Planar",
+      "Driver Size": 40,
+      "Number of Drivers": 1,
+      "Water Resistant": false,
+      "Weight": 200,
+      "Battery Life": 24,
+      "noise_cancellation": "active noise cancellation",
+      "price": 260,
+      "rating": 4,
+      "description": "A listening experience all your own.",
+      "colors": [
+        {
+          "id": 1,
+          "label": "White",
+          "name": "white",
+          "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MQD83?wid=1144&hei=1144&fmt=jpeg&qlt=90&.v=1660803972361"
+        }
+      ],
+      "selectedColorId": 1,
+      "cartImage": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MQD83?wid=1144&hei=1144&fmt=jpeg&qlt=90&.v=1660803972361"
+    },
+    {
+      "id": 8,
+      "name": "AirPods (3rd generation)",
+      "brand": "Apple",
+      "type": "in-ear",
+      "wireless": true,
+      "Release Date": "December 2022",
+      "microphone": true,
+      "Driver Type": "Dynamic",
+      "Driver Size": 40,
+      "Number of Drivers": 1,
+      "Water Resistant": true,
+      "Weight": 210,
+      "Battery Life": 24,
+      "noise_cancellation": "active noise cancellation",
+      "price": 290,
+      "rating": 4,
+      "description": "Sound is placed all around you to create an immersive, three-dimensional listening experience for music, TV shows and movies.",
+      "colors": [
+        {
+          "id": 1,
+          "label": "White",
+          "name": "white",
+          "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MME73?wid=1144&hei=1144&fmt=jpeg&qlt=90&.v=1632861342000"
+        }
+      ],
+      "selectedColorId": 1,
+      "cartImage": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MME73?wid=1144&hei=1144&fmt=jpeg&qlt=90&.v=1632861342000"
+    },
+    {
+      "id": 9,
+      "name": "AirPods (2nd generation)",
+      "brand": "Apple",
+      "type": "in-ear",
+      "wireless": true,
+      "Release Date": "March 2022",
+      "microphone": true,
+      "Driver Type": "Dynamic",
+      "Driver Size": 40,
+      "Number of Drivers": 1,
+      "Water Resistant": false,
+      "Weight": 200,
+      "Battery Life": 20,
+      "noise_cancellation": "passive noise cancellation",
+      "price": 250,
+      "rating": 3,
+      "description": "AirPods deliver the wireless headphone experience, reimagined.",
+      "colors": [
+        {
+          "id": 1,
+          "label": "White",
+          "name": "white",
+          "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MV7N2?wid=1144&hei=1144&fmt=jpeg&qlt=95&.v=1551489688005"
+        }
+      ],
+      "selectedColorId": 1,
+      "cartImage": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MV7N2?wid=1144&hei=1144&fmt=jpeg&qlt=95&.v=1551489688005"
+    },
+    {
+      "id": 10,
+      "name": "Razer Barracuda X",
+      "brand": "Razer",
+      "type": "over-ear",
+      "wireless": true,
+      "Release Date": "January 2022",
+      "microphone": true,
+      "Driver Type": "Planar",
+      "Driver Size": 40,
+      "Number of Drivers": 1,
+      "Water Resistant": false,
+      "Weight": 250,
+      "Battery Life": 15,
+      "noise_cancellation": "passive noise cancellation",
+      "price": 99,
+      "rating": 4,
+      "description": "Wireless Multi-platform Gaming and Mobile Headset.",
+      "colors": [
+        {
+          "id": 1,
+          "label": "Mercury",
+          "name": "white",
+          "image": "https://assets3.razerzone.com/_3-kNgOGUkHe5h05g3yp0nbOd6Q=/1500x1000/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fhb2%2Fh82%2F9248880754718%2F211021-barracuda-x-mercury-1500x1000-3.jpg"
+        },
+        {
+          "id": 2,
+          "label": "Black",
+          "name": "black",
+          "image": "https://assets3.razerzone.com/XABpbAMSNnDRkf4r6wM7hFskvtc=/1500x1000/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fh47%2Fhcd%2F9195729649694%2FBarracuda-X-1500x1000-6.jpg"
+        },
+        {
+          "id": 3,
+          "label": "Quartz",
+          "name": "pink",
+          "image": "https://assets3.razerzone.com/OjrwuCUIGb6CoYZEE5Ny6P7LAEM=/1500x1000/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fh80%2Fh8c%2F9248880492574%2F211021-barracuda-x-quartz-1500x1000-3.jpg"
+        }
+      ],
+      "selectedColorId": 1,
+      "cartImage": "https://assets3.razerzone.com/_3-kNgOGUkHe5h05g3yp0nbOd6Q=/1500x1000/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fhb2%2Fh82%2F9248880754718%2F211021-barracuda-x-mercury-1500x1000-3.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Razer Barracuda",
+      "brand": "Razer",
+      "type": "over-ear",
+      "wireless": false,
+      "Release Date": "August 2021",
+      "microphone": true,
+      "Driver Type": "Dynamic",
+      "Driver Size": 50,
+      "Number of Drivers": 1,
+      "Water Resistant": true,
+      "Weight": 250,
+      "Battery Life": 19,
+      "noise_cancellation": "active noise cancellation",
+      "price": 159.99,
+      "rating": 4,
+      "description": "Wireless Multi-platform Gaming and Mobile Headset.",
+      "colors": [
+        {
+          "id": 1,
+          "label": "Black",
+          "name": "black",
+          "image": "https://assets3.razerzone.com/J5CSmGPQ4hRShIBWavAtoWmvK_E=/1500x1000/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fhed%2Fhf8%2F9407843631134%2F220531-barracuda-1500x1000-1.png"
+        },
+        {
+          "id": 2,
+          "label": "Mercury",
+          "name": "white",
+          "image": "https://assets3.razerzone.com/Vix_ejQD2ECNVHC9g3sAv-XeUug=/1500x1000/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fhc5%2Fh9f%2F9446069796894%2F221015-barracuda-mercury-1500x1000-1.jpg"
+        },
+        {
+          "id": 3,
+          "label": "Quartz",
+          "name": "pink",
+          "image": "https://assets3.razerzone.com/ZqpatxVvVmDlefEE17KpA8QUjf4=/1500x1000/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fhc4%2Fh53%2F9446070419486%2F221015-barracuda-quartz-1500x1000-1.jpg"
+        }
+      ],
+      "selectedColorId": 1,
+      "cartImage": "https://assets3.razerzone.com/J5CSmGPQ4hRShIBWavAtoWmvK_E=/1500x1000/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fhed%2Fhf8%2F9407843631134%2F220531-barracuda-1500x1000-1.png"
+    },
+    {
+      "id": 12,
+      "name": "Razer Barracuda Pro",
+      "brand": "Razer",
+      "type": "over-ear",
+      "wireless": false,
+      "Release Date": "August 2022",
+      "microphone": true,
+      "Driver Type": "Planar",
+      "Driver Size": 40,
+      "Number of Drivers": 1,
+      "Water Resistant": false,
+      "Weight": 270,
+      "Battery Life": 20,
+      "noise_cancellation": "passive noise cancellation",
+      "price": 249.99,
+      "rating": 5,
+      "description": "Wireless Gaming Headset with Hybrid ANC.",
+      "colors": [
+        {
+          "id": 1,
+          "label": "Black",
+          "name": "black",
+          "image": "https://assets3.razerzone.com/Pl5kIw_IRiXfbDMEsLWPBa6e-wM=/1500x1000/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fh96%2Fhf8%2F9407843663902%2F220531-barracuda-pro-1500x1000-3.jpg"
+        }
+      ],
+      "selectedColorId": 1,
+      "cartImage": "https://assets3.razerzone.com/Pl5kIw_IRiXfbDMEsLWPBa6e-wM=/1500x1000/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fh96%2Fhf8%2F9407843663902%2F220531-barracuda-pro-1500x1000-3.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Razer BlackShark V2 Pro",
+      "brand": "Razer",
+      "type": "over-ear",
+      "wireless": true,
+      "Release Date": "April 2022",
+      "microphone": true,
+      "Driver Type": "Dynamic",
+      "Driver Size": 40,
+      "Number of Drivers": 1,
+      "Water Resistant": false,
+      "Weight": 300,
+      "Battery Life": 20,
+      "noise_cancellation": "active noise cancellation",
+      "price": 300,
+      "rating": 4,
+      "description": "Wireless Esports Headset.",
+      "colors": [
+        {
+          "id": 1,
+          "label": "Black",
+          "name": "black",
+          "image": "https://assets3.razerzone.com/j-JBdvbOw-1xwjZiynCtO2wlPgs=/1500x1000/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fh29%2Fhc1%2F9510181994526%2F230427-blackshark-v2-pro-black-2023-1500x1000-2.jpg"
+        }
+      ],
+      "selectedColorId": 1,
+      "cartImage": "https://assets3.razerzone.com/j-JBdvbOw-1xwjZiynCtO2wlPgs=/1500x1000/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fh29%2Fhc1%2F9510181994526%2F230427-blackshark-v2-pro-black-2023-1500x1000-2.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Airdopes 141",
+      "brand": "Boat",
+      "type": "in-ear",
+      "wireless": true,
+      "Release Date": "May 2021",
+      "microphone": false,
+      "Driver Type": "Dynamic",
+      "Driver Size": 8,
+      "Number of Drivers": 1,
+      "Water Resistant": true,
+      "Weight": 200,
+      "Battery Life": 20,
+      "noise_cancellation": "none",
+      "price": 30,
+      "rating": 3,
+      "description": "Wireless Earbuds with 8mm drivers, Upto 42 Hours Playback, ENx™ Technology, IPX4 Water Resistance.",
+      "colors": [
+        {
+          "id": 1,
+          "label": "Cyan Cider",
+          "name": "cyan",
+          "image": "https://www.boat-lifestyle.com/cdn/shop/products/grey_600x.png?v=1668599490"
+        },
+        {
+          "id": 2,
+          "label": "Black",
+          "name": "black",
+          "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/products/back_600x.png?v=1668599490"
+        },
+        {
+          "id": 3,
+          "label": "White Purity",
+          "name": "white",
+          "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/products/white_600x.png?v=1668599490"
+        }
+      ],
+      "selectedColorId": 1,
+      "cartImage": "https://www.boat-lifestyle.com/cdn/shop/products/grey_600x.png?v=1668599490"
+    },
+    {
+      "id": 15,
+      "name": "Airdopes 131",
+      "brand": "Boat",
+      "type": "in-ear",
+      "wireless": true,
+      "Release Date": "March 2021",
+      "microphone": false,
+      "Driver Type": "Dynamic",
+      "Driver Size": 13,
+      "Number of Drivers": 2,
+      "Water Resistant": false,
+      "Weight": 200,
+      "Battery Life": 20,
+      "noise_cancellation": "none",
+      "price": 20,
+      "rating": 4,
+      "description": "Wireless Earbuds with upto 60 Hours Playback, 13mm Drivers, IWP Technology, 650mAh Charging Case",
+      "colors": [
+        {
+          "id": 1,
+          "label": "Black",
+          "name": "black",
+          "image": "https://www.boat-lifestyle.com/cdn/shop/products/c2386af9-4349-432f-8ba5-2b6aa06025c8_600x.png?v=1668756103"
+        },
+        {
+          "id": 2,
+          "label": "Ivory White",
+          "name": "white",
+          "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/products/ivory-white_600x.png?v=1639466536"
+        },
+        {
+          "id": 3,
+          "label": "Light Pink",
+          "name": "pink",
+          "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/products/32011675-2ad8-4b99-9787-895caf201d28_600x.png?v=1642405569"
+        },
+        {
+          "id": 4,
+          "label": "Crimson Cream",
+          "name": "red",
+          "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/products/cream_600x.png?v=1668756103"
+        },
+        {
+          "id": 5,
+          "label": "Steel Blue",
+          "name": "blue",
+          "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/products/616b4ead-bbd9-4a16-aeab-8d331a16f697_600x.png?v=1642405569"
+        }
+      ],
+      "selectedColorId": 1,
+      "cartImage": "https://www.boat-lifestyle.com/cdn/shop/products/c2386af9-4349-432f-8ba5-2b6aa06025c8_600x.png?v=1668756103"
+    },
+    {
+      "id": 16,
+      "name": "Airdopes 161",
+      "brand": "Boat",
+      "type": "in-ear",
+      "wireless": true,
+      "Release Date": "April 2021",
+      "microphone": false,
+      "Driver Type": "Dynamic",
+      "Driver Size": 13,
+      "Number of Drivers": 2,
+      "Water Resistant": false,
+      "Weight": 150,
+      "Battery Life": 17,
+      "noise_cancellation": "none",
+      "price": 15,
+      "rating": 3,
+      "description": "Wireless Earbuds with Massive Playback of upto 17 Hour, IPX5 Water & Sweat Resistance, IWP Technology.",
+      "colors": [
+        {
+          "id": 1,
+          "label": "Cool Sapphire",
+          "name": "blue",
+          "image": "https://www.boat-lifestyle.com/cdn/shop/products/main_blue_a80b6882-1247-439d-a17b-1c87ed4fa7c8_600x.png?v=1641206192"
+        },
+        {
+          "id": 2,
+          "label": "Pebble Black",
+          "name": "black",
+          "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main_black_fa1c6ec3-93b7-443e-ae82-d5eeb34258f8_600x.png?v=1641206192"
+        },
+        {
+          "id": 3,
+          "label": "Pearl White",
+          "name": "white",
+          "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main_white_600x.png?v=1641206209"
+        }
+      ],
+      "selectedColorId": 1,
+      "cartImage": "https://www.boat-lifestyle.com/cdn/shop/products/main_blue_a80b6882-1247-439d-a17b-1c87ed4fa7c8_600x.png?v=1641206192"
+    },
+    {
+      "id": 17,
+      "name": "Airdopes 115",
+      "brand": "Boat",
+      "type": "in-ear",
+      "wireless": true,
+      "Release Date": "January 2021",
+      "microphone": false,
+      "Driver Type": "Dynamic",
+      "Driver Size": 13,
+      "Number of Drivers": 2,
+      "Water Resistant": false,
+      "Weight": 150,
+      "Battery Life": 17,
+      "noise_cancellation": "none",
+      "price": 24,
+      "rating": 2,
+      "description": "Earbuds with 13mm drivers, BEAST™ Mode for Gamers, ENx™ Technology",
+      "colors": [
+        {
+          "id": 1,
+          "label": "Blue",
+          "name": "blue",
+          "image": "https://www.boat-lifestyle.com/cdn/shop/products/115-main2_600x.png?v=1655368638"
+        },
+        {
+          "id": 2,
+          "label": "Raging Red",
+          "name": "red",
+          "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/products/115-Red_1_1300x.png?v=1675859737"
+        },
+        {
+          "id": 3,
+          "label": "Black",
+          "name": "black",
+          "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/products/115-main1_600x.png?v=1655368638"
+        },
+        {
+          "id": 3,
+          "label": "White",
+          "name": "white",
+          "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/products/115-main4_600x.png?v=1650530656"
+        }
+      ],
+      "selectedColorId": 1,
+      "cartImage": "https://www.boat-lifestyle.com/cdn/shop/products/115-main2_600x.png?v=1655368638"
+    },
+    {
+      "id": 18,
+      "name": "Bassheads 900",
+      "brand": "Boat",
+      "type": "on-ear",
+      "wireless": false,
+      "Release Date": "May 2021",
+      "microphone": true,
+      "Driver Type": "Dynamic",
+      "Driver Size": 40,
+      "Number of Drivers": 2,
+      "Water Resistant": false,
+      "Weight": 300,
+      "Battery Life": 20,
+      "noise_cancellation": "none",
+      "price": 30,
+      "rating": 4,
+      "description": "Wired Earphones with 40mm Drivers, Compact & Foldable, In-line microphone, Super Bass.",
+      "colors": [
+        {
+          "id": 1,
+          "label": "White",
+          "name": "white",
+          "image": "https://www.boat-lifestyle.com/cdn/shop/products/8ec58553-3255-48ec-929e-4838215b640c_1500x.png?v=1625046271"
+        },
+        {
+          "id": 2,
+          "label": "Black",
+          "name": "black",
+          "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/products/08119dcb-d777-44af-b556-3492e5b4b7f0_600x.png?v=1625046271"
+        }
+      ],
+      "selectedColorId": 1,
+      "cartImage": "https://www.boat-lifestyle.com/cdn/shop/products/8ec58553-3255-48ec-929e-4838215b640c_1500x.png?v=1625046271"
+    },
+    {
+      "id": 19,
+      "name": "Immortal 1000D",
+      "brand": "Boat",
+      "type": "on-ear",
+      "wireless": false,
+      "Release Date": "March 2021",
+      "microphone": true,
+      "Driver Type": "Dynamic",
+      "Driver Size": 40,
+      "Number of Drivers": 2,
+      "Water Resistant": false,
+      "Weight": 300,
+      "Battery Life": 20,
+      "noise_cancellation": "none",
+      "price": 29,
+      "rating": 3,
+      "description": "Wired Earphones with 40mm Drivers, Compact & Foldable, In-line microphone, Super Bass.",
+      "colors": [
+        {
+          "id": 1,
+          "label": "Black Sabre",
+          "name": "black",
+          "image": "https://www.boat-lifestyle.com/cdn/shop/products/2_f3aa2756-01f3-4e39-80bc-7b4f6551c7aa_600x.png?v=1625748159"
+        },
+        {
+          "id": 2,
+          "label": "White Sabre",
+          "name": "white",
+          "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/products/1_600x.png?v=1625748155"
+        }
+      ],
+      "selectedColorId": 1,
+      "cartImage": "https://www.boat-lifestyle.com/cdn/shop/products/2_f3aa2756-01f3-4e39-80bc-7b4f6551c7aa_600x.png?v=1625748159"
+    },
+    {
+      "id": 20,
+      "name": "Rockerz 235 V2",
+      "brand": "Boat",
+      "type": "over-ear",
+      "wireless": true,
+      "Release Date": "September 2021",
+      "microphone": false,
+      "Driver Type": "Dynamic",
+      "Driver Size": 13,
+      "Number of Drivers": 2,
+      "Water Resistant": true,
+      "Weight": 200,
+      "Battery Life": 8,
+      "noise_cancellation": "none",
+      "price": 18,
+      "rating": 4,
+      "description": "Bluetooth Stereo Wireless Earphone with Up to 8 Hours of Uninterrupted Music.",
+      "colors": [
+        {
+          "id": 1,
+          "label": "Indian Red",
+          "name": "red",
+          "image": "https://www.boat-lifestyle.com/cdn/shop/products/5f7d33ad-39a9-4426-836e-c300814839b9_600x.png?v=1625046105"
+        },
+        {
+          "id": 2,
+          "label": "Black",
+          "name": "black",
+          "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/products/ed46e58c-9643-43e0-b350-9539d293aa51_600x.png?v=1685697420"
+        },
+        {
+          "id": 3,
+          "label": "Grey",
+          "name": "grey",
+          "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/products/5324091f-9f39-463f-bf20-e603c796349c_600x.png?v=1685697420"
+        },
+        {
+          "id": 4,
+          "label": "Striking Orange",
+          "name": "orange",
+          "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/products/235v2-striking-orange_800x.png?v=1685697420"
+        }
+      ],
+      "selectedColorId": 1,
+      "cartImage": "https://www.boat-lifestyle.com/cdn/shop/products/5f7d33ad-39a9-4426-836e-c300814839b9_600x.png?v=1625046105"
+    },
+    {
+      "id": 21,
+      "name": "MOMENTUM 4 Wireless",
+      "brand": "Sennheiser",
+      "type": "over-ear",
+      "wireless": true,
+      "Release Date": "March 2021",
+      "microphone": true,
+      "Driver Type": "Dynamic",
+      "Driver Size": 40,
+      "Number of Drivers": 1,
+      "Water Resistant": false,
+      "Weight": 400,
+      "Battery Life": 20,
+      "noise_cancellation": "active noise cancellation",
+      "price": 340,
+      "rating": 4,
+      "description": "Get the next generation MOMENTUM 4 Wireless that is inspired by music.",
+      "colors": [
+        {
+          "id": 1,
+          "label": "Black",
+          "name": "black",
+          "image": "https://media.graphassets.com/resize=w:900,fit:crop/quality=value:65/auto_image/compress/HFKyJTlQhmkMlEOtc6GU"
+        },
+        {
+          "id": 2,
+          "label": "White",
+          "name": "white",
+          "image": "https://images.unsplash.com/photo-1625245488600-f03fef636a3c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
+        }
+      ],
+      "selectedColorId": 1,
+      "cartImage": "https://media.graphassets.com/resize=w:900,fit:crop/quality=value:65/auto_image/compress/HFKyJTlQhmkMlEOtc6GU"
     }
   ]
 }
